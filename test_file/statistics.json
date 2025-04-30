@@ -1,0 +1,121 @@
+{
+  "students": [
+    {
+      "id": 1003,
+      "name": "王五",
+      "age": 19,
+      "scores": {
+        "语文": 92,
+        "数学": 95,
+        "英语": 85
+      },
+      "hobbies": [
+        "绘画",
+        "音乐",
+        "编程",
+        "摄影"
+      ],
+      "is_monitor": false,
+      "average_score": 90.67
+    },
+    {
+      "id": 1001,
+      "name": "张三",
+      "age": 20,
+      "scores": {
+        "语文": 85,
+        "数学": 92,
+        "英语": 78
+      },
+      "hobbies": [
+        "篮球",
+        "编程",
+        "阅读"
+      ],
+      "is_monitor": true,
+      "average_score": 85.0
+    },
+    {
+      "id": 1004,
+      "name": "赵六",
+      "age": 22,
+      "scores": {
+        "语文": 88,
+        "数学": 75,
+        "英语": 92
+      },
+      "hobbies": [
+        "旅游",
+        "烹饪"
+      ],
+      "is_monitor": false,
+      "average_score": 85.0
+    },
+    {
+      "id": 1002,
+      "name": "李四",
+      "age": 21,
+      "scores": {
+        "语文": 75,
+        "数学": 88,
+        "英语": 90
+      },
+      "hobbies": [
+        "足球",
+        "游泳"
+      ],
+      "is_monitor": false,
+      "average_score": 84.33
+    },
+    {
+      "id": 1005,
+      "name": "钱七",
+      "age": 20,
+      "scores": {
+        "语文": 80,
+        "数学": 82,
+        "英语": 88
+      },
+      "hobbies": [
+        "电影",
+        "阅读",
+        "游戏"
+      ],
+      "is_monitor": false,
+      "average_score": 83.33
+    }
+  ],
+  "subject_averages": {
+    "语文": 84.0,
+    "数学": 86.4,
+    "英语": 86.6
+  },
+  "subject_top_scores": {
+    "语文": {
+      "score": 92,
+      "student": "王五"
+    },
+    "数学": {
+      "score": 95,
+      "student": "王五"
+    },
+    "英语": {
+      "score": 92,
+      "student": "赵六"
+    }
+  },
+  "hobby_distribution": {
+    "篮球": 1,
+    "编程": 2,
+    "阅读": 2,
+    "足球": 1,
+    "游泳": 1,
+    "绘画": 1,
+    "音乐": 1,
+    "摄影": 1,
+    "旅游": 1,
+    "烹饪": 1,
+    "电影": 1,
+    "游戏": 1
+  }
+}
