@@ -37,9 +37,9 @@ def calculate_average(input_file, output_file):
         count_dict = {}
         avg_dict = {}
         
-        # 读取CSV文件并计算每列的总和和计数
+        # 读取CSV文件并计算每列的总和和计数，csv默认分隔符为逗号，自定义分隔符需指定，示例：csv.reader(file, delimiter=';')
         with open(input_file, newline='', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
+            reader = csv.DictReader(file)  # dictreader 以字典形式读取CSV，将列名作为键，读取示例：{'name': 'Alice', 'age': '25'}
             for line in reader:
                 for key, value in line.items():  # 修正：使用items()方法
                     try:
@@ -56,9 +56,9 @@ def calculate_average(input_file, output_file):
 
         # 将结果写入输出文件
         with open(output_file, 'w', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            writer.writerow(num_dict.keys())  # 修正：使用keys()方法
-            writer.writerow(avg_dict.values())  # 修正：使用values()方法
+            writer = csv.writer(file) #writer写入，示例： writerow写入一行，示例：['name', 'age']
+            writer.writerow(num_dict.keys())  # 修正：使用keys()方法    先写入列名
+            writer.writerow(avg_dict.values())  # 修正：使用values()方法    再写入平均值
         
         return True  # 操作成功完成
         
