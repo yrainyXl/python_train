@@ -1,0 +1,5 @@
+文件名,总字数,总行数,总段落数,平均句子长度,情感倾向,最常见词1,最常见词2,最常见词3,最常见词4,最常见词5
+sample1.txt,300,15,5,20.5,正面,reading,skills,books,benefits,world
+sample2.txt,350,18,6,19.2,负面,technology,problems,concerns,issues,digital
+sample3.txt,400,22,8,18.7,中性,computing,development,technology,computers,century
+汇总统计,1050,55,19,19.5,中性,technology,computing,reading,development,digital
